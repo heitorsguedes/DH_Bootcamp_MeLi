@@ -1,0 +1,4 @@
+//
+
+Default Methods em interfaces -> Pode ser chamado por quem implementa  a interface e nao é necessario implementar na
+classe veja os exemplos na classe.

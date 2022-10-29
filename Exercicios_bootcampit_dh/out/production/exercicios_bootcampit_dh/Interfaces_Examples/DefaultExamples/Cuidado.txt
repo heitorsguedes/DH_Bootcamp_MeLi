@@ -1,0 +1,34 @@
+Cuidado ao implementar mais de uma interface com metodos default iguais, o codigo nao compila.
+
+Para resolver o problema voce tera que implementar os default e sobreescrever os metodos com Override
+Outra forma de lidar com o problema é sobreescrever com um dos metodos das interfaces.
+
+
+-------------------------------------------------------------
+Example usando o super de uma interface para resolver um conflito:
+
+@Override
+public String turnAlarmOn() {
+    return Vehicle.super.turnAlarmOn();
+}
+
+@Override
+public String turnAlarmOff() {
+    return Vehicle.super.turnAlarmOff();
+}
+
+--------------------------OU---------------------------------
+
+@Override
+public String turnAlarmOn() {
+    return Alarm.super.turnAlarmOn();
+}
+
+@Override
+public String turnAlarmOff() {
+    return Alarm.super.turnAlarmOff();
+}
+
+-------------------------------------------------------------
+FONTE: https://www.baeldung.com/java-static-default-methods
+-------------------------------------------------------------

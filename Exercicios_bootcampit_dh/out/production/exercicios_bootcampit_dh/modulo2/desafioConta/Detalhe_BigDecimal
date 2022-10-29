@@ -1,0 +1,5 @@
+O ideal para esse caso seria trabalhar com Big Decimal para representar os numeros.
+Motivo: Quando trabalhamos com double ou Double a representação fica imprecisa com muitas casas
+decimais, some 0.1 com 0.2 usando double para vc ver.
+
+Nesse caso usaremos double para simplificar o exercicio, mas fique atento.

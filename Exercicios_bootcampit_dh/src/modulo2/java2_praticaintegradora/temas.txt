@@ -1,0 +1,1 @@
+Heranca,polimorfismo,encapsulamento,exceptions,classes utilitarias.

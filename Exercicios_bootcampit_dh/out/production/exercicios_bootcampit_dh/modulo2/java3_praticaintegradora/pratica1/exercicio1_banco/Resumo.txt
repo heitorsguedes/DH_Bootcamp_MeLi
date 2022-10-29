@@ -1,0 +1,2 @@
+Nesse modulo estou organizando melhor os exercios, organizando eles em packages
+Aqui farei exercicios com interfaces, lambdas e streams.
